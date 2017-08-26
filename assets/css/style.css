@@ -9,19 +9,29 @@
     width: 60%;
     font-weight: bold;
     font-size: 20px;
-	
+    
+
+
 }
 
 body {     
   background-size: 60%;
   border: solid 4px;
-  border-color: blue;
+  z-index: -1;
+  background-image: url('../images/crystalbackground.jpg');
+  padding: 200px;
+  position: relative;
+  z-index: 2;
+  background-repeat: no-repeat;
+  width: 60%;
+  
 }
 
 #wrapper {
 	width: 60%;
 	max-width: 960px;
     margin: 0 auto;
+   
 }
 
 header {
@@ -52,11 +62,42 @@ h1 {
 
 }
 
-#crystals {
+#blue {
 
-
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
 
 }
+
+#pink {
+    
+        max-height: 150px;
+        max-width: 200px;
+        width: 120px;
+        height: 120px;
+    
+    }
+
+#yellow {
+        
+            max-height: 150px;
+            max-width: 200px;
+            width: 120px;
+            height: 120px;
+        
+        }
+
+#green {
+            
+            max-height: 150px;
+            max-width: 200px;
+            width: 120px;
+            height: 120px;
+            
+}
+
 
 #score {
 
