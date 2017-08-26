@@ -1,9 +1,21 @@
-var = 
+var random_result;
+var lost;
+var win;
+
+for(var i = 0; i < 4; i++){
+console.log("Hello World!")
+
+}
+var random = Math.floor(Math.random() * 12);
+console.log("random");
+var crystals = $("<div>");
+$(".crystals").append(crystals);
 
 
-$(document).ready(function(){
+$(".crystals").on('click', function (){
+    console.log($(this));
 
 
-    var random = var Random = Math.floor(Math.random() * 101 + 19);
 
 });
+
