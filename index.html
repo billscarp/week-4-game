@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 <head>
     <title>Crystal Collectors</title>
@@ -9,31 +12,35 @@
 
 </head>
 
+
+    
+
+
 <body>
 
-    <div id="container-">
+    <div id="container-game">
         <div id="wrapper">
 
-            <h1>Crystal Collectors!</h1>
+                <h1>Crystal Collectors</h1><br><br>
 
-            <div id="instructions">
+             <div id="instructions">
                 <p>
-                    <h4>Instruction</h4>
-                <p>Player recieves a random number at the start of the game.</p>
-                <p>Click on one of the four Crystals to score.</p>
-                <p> If your number matches the computers, you win! . </p>
-                <p> If your score goes above the computers pick, you lose :(</p>
-            </div>
+                    <h4>Instructions:</h4><br>
+                <p>You will recieve a random number at the start of the game.</p><br>
+                <p>Click on one of the four Crystals below to score. Each crystal that you cllick on will add a specific amount to your total score.</p><br>
+                <p> If your number matches the computers, you win! . </p><br>
+                <p> If your score goes above the computers pick, you lose :(</p><br>
+             </div>
 
             <div class="container">
-                <div id="NumberToGuess">
-                    <h2>Number to Guess: <span class="value"></span></h2>
+                <div id="NumberToGuess"><br><br>
+                    <h2>Number to Guess: <span class="value"></span></h2><br>
                 </div>
 
                 <div id="scoreboard">
-                    <h3><span id="status"></span></h3>
-                    <h3>Wins: <span id="win"></span></h3>
-                    <h3>Losses: <span id="loss"></span> </h3>
+                    <h3><span id="status"></span></h3><br>
+                    <h3>Wins: <span id="win"></span></h3><br>
+                    <h3>Losses: <span id="loss"></span> </h3><br>
                 </div>
             </div>
 
@@ -41,7 +48,7 @@
             <div id="crystals"></div>
 
             <div id="Score">
-                <h2 id="yts">Your Total Score is: <span id="yourScore">0</span></h2>
+                <h2 id="yts">Your total Score is: <span id="yourScore">0</span></h2>
 
             </div>
 
@@ -50,7 +57,13 @@
 
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="game.js"></script>
-
+    <footer>
+            <small>
+                <i>Copyright &copy; 2017 Bill Scarpelli<br>
+                <a href="mailto:William@Scarpelli.com">William@Scarpelli.com</a></i>
+            </small>
+        </footer>
+    
 </body>
 
 </html>

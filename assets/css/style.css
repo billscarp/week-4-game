@@ -1,0 +1,76 @@
+
+
+#container-game {
+
+	border-radius: 40px;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 5%;
+    width: 60%;
+    font-weight: bold;
+    font-size: 20px;
+	
+}
+
+body {     
+  background-size: 60%;
+  border: solid 4px;
+  border-color: blue;
+}
+
+#wrapper {
+	width: 60%;
+	max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px;
+    float: left;
+}
+
+h1 {
+
+    background-color: teal;
+    color: white;
+    border:solid 1px black;
+    clear: both;
+    margin-bottom: 30px;
+
+    }
+
+#instructions {
+
+    background-color: greenyellow;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#scoreboard {
+
+
+
+}
+
+#crystals {
+
+
+
+}
+
+#score {
+
+
+
+}
+
+footer {
+    
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;   
+}
+footer a, footer a:visited {
+    font-size: 14px;
+    color: black;
+}
