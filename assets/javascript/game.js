@@ -7,10 +7,12 @@ var losses;
 ScoreToMatch = Math.floor(Math.random() * 101) + 19;
 console.log(ScoreToMatch);
 
+// Assigned id to Score To Match so that it would show up in html, then assigned it to Math.random
+
 $("#random").html('Score to Match:');
 
 
-// for loop for random number - Also adjusts number of crystals on my page
+// for loop for Crystals - Also adjusts number of crystals on my page
 
 for (var i = 0; i < 4; i++) {
 
@@ -35,8 +37,11 @@ for (var i = 0; i < 4; i++) {
 
 $(".crystal").on('click', function () {
 
-    console.log($(this).attr("RandomInfo"));
+   //This is set up to add 4 to any random # when you hit a crystal
 
+    var num = parseInt($(this).attr('RandomInfo'));
+    var result = num + 4;
+    console.log(num, ' + ', result);
 
 
 
