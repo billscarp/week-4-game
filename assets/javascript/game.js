@@ -1,12 +1,17 @@
-var random_result;
-var lost;
-var win;
 
-for(var i = 0; i < 4; i++){
-console.log("Hello World!")
+
+
+var MainRandomNumber 
+var RandomNumber = Math.floor(Math.random() * ((120-19)+1) +19;
+                   Math.floor(Math.random() * 102 + 19);
+                   
+Var Tries = prompt ( "Please pick a number between 1 and " + MainRandomNumber);
+
+
+
 
 }
-var random = Math.floor(Math.random() * 12);
+var random = 
 console.log("random");
 var crystals = $("<div>");
 $(".crystals").append(crystals);
@@ -14,6 +19,7 @@ $(".crystals").append(crystals);
 
 $(".crystals").on('click', function (){
     console.log($(this));
+
 
 
 

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 
 
 <head>
-    <title>Crystal Collectors</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crystal Collectors</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 </head>
 
 
@@ -18,8 +18,7 @@
 
 <body>
 
-    <div id="container-game">
-        <div id="wrapper">
+    
 
                 <h1>Crystal Collectors</h1><br><br>
 
@@ -32,38 +31,34 @@
                 <p> If your score goes above the computers pick, you lose :(</p><br>
              </div>
 
-            <div class="container">
-                <div id="NumberToGuess"><br><br>
-                    <h2>Number to Guess: <span class="value"></span></h2><br>
+        <div class="ScoreContainer">  
+                <div id="WinLose">
+                    <h3><span id="status"></span></h3>
+                    <h3>Wins: <span id="win"></span></h3>
+                    <h3>Losses: <span id="loss"></span></h3>
+                </div>
+            
+                <div id="RandomNumber"> Random Number: <span class="randnum"></span>
+
                 </div>
 
-              
+            <div id="EndScore"></div>
 
-                <div id="scoreboard">
-                    <h3><span id="status"></span></h3><br>
-                    <h3>Wins: <span id="win"></span></h3><br>
-                    <h3>Losses: <span id="loss"></span> </h3><br>
-                </div>
+            <div id="MyScore">
+                <h2 id="yts">Your total Score is: <span id="yourScore">0</span></h2></div>
+
             </div>
 
-
-            <div id="crystal_score"></div>
-
-            <div id="Score">
-                <h2 id="yts">Your total Score is: <span id="yourScore">0</span></h2>
-                
-            </div>
-
-        </div>
+        
     
 
-    <div class ="crystals">
-            <img id="blue" src="assets/images/bluecrystal.jpeg" alt="">
-            <img id="pink" src="assets/images/pinkcrystal.jpg" alt="">
-            <img id="yellow" src="assets/images/yellowcrystal.jpg" alt="">
-            <img id="green" src="assets/images/crystalgreen.jpeg" alt="">
+        <div class ="crystals">
+            <img id="blue" src="assets/images/bluecrystal.jpeg" alt="Blue Crystal">
+            <img id="pink" src="assets/images/pinkcrystal.jpg" alt="Pink Crystal">
+            <img id="yellow" src="assets/images/yellowcrystal.jpg" alt="Yellow Crystal">
+            <img id="green" src="assets/images/crystalgreen.jpeg" alt="Green Crystal">
         </div>
-</div>
+    
 
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="assets/javascript/game.js"></script>

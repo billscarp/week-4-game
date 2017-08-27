@@ -1,45 +1,19 @@
 
 
-#container-game {
-
-	border-radius: 40px;
-	padding-right: 10%;
-	padding-left: 10%;
-	padding-top: 5%;
-    width: 60%;
-    font-weight: bold;
-    font-size: 20px;
-    border: 5px solid black;
-    background-image: url('../images/crystalbackground.jpg');
-   
-    
-
-
-}
-
 body {     
   background-size: 60%;
   border: solid 4px;
   z-index: -1;
-  
   padding: 200px;
   position: relative;
   z-index: 2;
   background-repeat: no-repeat;
-  width: 60%;
-  
-  
+  width: 36%;
+  border: 5px solid black;
+  background-image: url('../images/crystalbackground.jpg');
 
-  
 }
 
-#wrapper {
-	width: 60%;
-	max-width: 960px;
-    margin: 0 auto;
-    
-   
-}
 
 header {
     padding: 20px;
@@ -57,18 +31,24 @@ h1 {
 
     }
 
+.ScoreContainer {
+
+    background-color: white;
+}
+
 #instructions {
 
     background-color: yellow;
     font-weight: bold;
     font-size: 14px;
+    witdth: 60%;
 }
 
 
 .crystals{
 
 display: flex;
-justify-content: center;
+
 
 }
 
@@ -111,11 +91,14 @@ justify-content: center;
 }
 
 
-#scoreboard { 
+.NumGuess {
+    
+        background-color: white;
+     }
 
 
 
-}
+
 
 footer {
     
@@ -130,6 +113,21 @@ footer a, footer a:visited {
 
 .crystals {
 
-    border: 5px solid black;
+   
 
 }
+
+@media (max-width: 550px){
+    
+body {
+    
+        width: 100%;
+    }
+    
+ .crystals {
+
+ }
+
+ 
+   
+
