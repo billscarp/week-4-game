@@ -1,10 +1,33 @@
-var crystals = ['blue', 'pink', 'yellow', 'green'];
 
-var totalScore = 0;
-var yourScore = 0;
-var wins = 0;
-var losses = 0;
+
+var ScoreToMatch;
+var yourScore;
+var wins;
+var losses;
+
+// Used Math.random to generate the number between 19 an 120
+ScoreToMatch = Math.floor(Math.random() * 101 ) + 19;
+console.log(ScoreToMatch);
+
+$("#random").html('Score to Match:');
+
+
+// for loop for random number - Also adjusts number of crystals on my page
 
 for(var i = 0; i < 4; i++){
-    console.log("hello world");
+
+  // variable generating a random number for the crystals (divs)  
+    
+    var random = Math.floor(Math.random() * 12);
+        console.log (random);
+
+  // div appeneded to html doc 
+var crystal = $("<div>");
+    crystal.attr({
+        "class": 'crystal',
+        "data-random": random
+    }); 
+
+$(".crystals").append(crystal);
+
 }

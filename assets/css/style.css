@@ -1,5 +1,30 @@
 
 
+
+
+.crystals {
+
+display: flex;
+justify-content: space-around;
+/*border: 1px solid blue;*/
+align-items: left;
+
+}
+
+.crystal{
+
+border: 1px solid brown;
+height: 200px;
+width: 200px;
+
+}
+
+
+
+
+
+/*
+
 body {     
   background-size: 60%;
   border: solid 4px;
@@ -129,5 +154,5 @@ body {
  }
 
  
-   
+ */  
 
