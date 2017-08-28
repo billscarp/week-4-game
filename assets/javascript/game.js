@@ -22,7 +22,7 @@ for (var i = 0; i < 4; i++) {
     var random = Math.floor(Math.random() * 12) + 1;
     console.log(random);
 
-    // div appeneded to html doc 
+    // div appeneded to html doc (HAD THIS WORKING AND BROKE IT.)
 
     var crystal = $("<div>");
     crystal.attr({
@@ -31,6 +31,7 @@ for (var i = 0; i < 4; i++) {
     });
 
     $(".crystals").append(crystal);
+   
 
 }
 
@@ -41,10 +42,12 @@ $(".crystal").on('click', function () {
    //This is set up to add 4 to any random # when you hit a crystal
 
     var num = parseInt($(this).attr('RandomInfo'));
+
+    $(".crystals").empty();
+    
+    
+
+
    
-
-
-
-
 });
 
