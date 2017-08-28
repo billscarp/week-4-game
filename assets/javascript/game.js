@@ -41,10 +41,10 @@ $(".crystal").on('click', function () {
    //This is set up to add 4 to any random # when you hit a crystal
 
     var num = parseInt($(this).attr('RandomInfo'));
-    previous += num ;
-    console.log(num);
+   
 
 
 
 
 });
+

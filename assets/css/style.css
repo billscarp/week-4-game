@@ -1,158 +1,18 @@
 
-
-
-
 .crystals {
-
-display: flex;
-justify-content: space-around;
-/*border: 1px solid blue;*/
-align-items: left;
-
-}
-
-.crystal{
-
-border: 1px solid brown;
-height: 200px;
-width: 200px;
-
-}
-
-
-
-
-
-/*
-
-body {     
-  background-size: 60%;
-  border: solid 4px;
-  z-index: -1;
-  padding: 200px;
-  position: relative;
-  z-index: 2;
-  background-repeat: no-repeat;
-  width: 36%;
-  border: 5px solid black;
-  background-image: url('../images/crystalbackground.jpg');
-
-}
-
-
-header {
-    padding: 20px;
-    float: left;
-}
-
-h1 {
-
-    background-color: black;
-    font-weight: bold;
-    color: white;
-    border:solid 1px black;
-    clear: both;
-    margin-bottom: 30px;
-
-    }
-
-.ScoreContainer {
-
-    background-color: white;
-}
-
-#instructions {
-
-    background-color: yellow;
-    font-weight: bold;
-    font-size: 14px;
-    witdth: 60%;
-}
-
-
-.crystals{
-
-display: flex;
-
-
-}
-
-
-
-#blue {
-
-    max-height: 150px;
-    max-width: 200px;
-    width: 120px;
-    height: 120px;
-
-}
-
-#pink {
     
-        max-height: 150px;
-        max-width: 200px;
-        width: 120px;
-        height: 120px;
+
+    display: flex;
+    justify-content: space-around;
+    /*border: 1px solid blue;*/
+    align-items: left;
     
-    }
-
-#yellow {
-        
-            max-height: 150px;
-            max-width: 200px;
-            width: 120px;
-            height: 120px;
-        
-        }
-
-#green {
-            
-            max-height: 150px;
-            max-width: 200px;
-            width: 120px;
-            height: 120px;
-            
 }
-
-
-.NumGuess {
     
-        background-color: white;
-     }
-
-
-
-
-
-footer {
+    .crystal{
     
-    padding: 10px;
-    margin-top: 10px;
-    text-align: center;   
-}
-footer a, footer a:visited {
-    font-size: 14px;
-    color: black;
-}
-
-.crystals {
-
-   
-
-}
-
-@media (max-width: 550px){
+    border: 1px solid brown;
+    height: 200px;
+    width: 200px;
     
-body {
     
-        width: 100%;
-    }
-    
- .crystals {
-
- }
-
- 
- */  
-
